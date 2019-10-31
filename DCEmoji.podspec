@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = 'DCEmoji'
-s.version = '1.0.3'
+s.version = '1.0.4'
 s.license = 'MIT'
 s.summary = 'A emoji putView on iOS.'
 s.homepage = 'https://github.com/Wlfade/DCEmoji'
@@ -9,4 +9,5 @@ s.source = {:git => 'https://github.com/Wlfade/DCEmoji.git', :tag => s.version.t
 s.requires_arc = true
 s.ios.deployment_target = '8.0'
 s.source_files = 'Emoticon/**/*.{h,m,bundle}'
+s.resources = 'Emoticon/Model/Emoticons.bundle
 end
