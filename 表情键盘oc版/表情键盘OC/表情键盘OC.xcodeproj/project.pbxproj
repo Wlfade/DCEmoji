@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E3E6D462367E268008052A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E6D452367E268008052A8 /* AppDelegate.m */; };
+		4E3E6D492367E268008052A8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E6D482367E268008052A8 /* SceneDelegate.m */; };
+		4E3E6D4F2367E268008052A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3E6D4D2367E268008052A8 /* Main.storyboard */; };
+		4E3E6D512367E269008052A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E3E6D502367E269008052A8 /* Assets.xcassets */; };
+		4E3E6D542367E269008052A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3E6D522367E269008052A8 /* LaunchScreen.storyboard */; };
+		4E3E6D572367E269008052A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E6D562367E269008052A8 /* main.m */; };
+		4E3E6D612367E269008052A8 /* ____OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E6D602367E269008052A8 /* ____OCTests.m */; };
+		4E3E6D6C2367E269008052A8 /* ____OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E6D6B2367E269008052A8 /* ____OCUITests.m */; };
+		4E3E6D7B2367ED01008052A8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E6D7A2367ED01008052A8 /* MainViewController.m */; };
+		4E3E6D7F236815B7008052A8 /* EmoticonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E6D7E236815B7008052A8 /* EmoticonController.m */; };
+		4E3E6D8223682A8F008052A8 /* EmoticonCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E6D8123682A8F008052A8 /* EmoticonCollectionViewLayout.m */; };
+		4E3E6D87236836DA008052A8 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4E3E6D86236836DA008052A8 /* Emoticons.bundle */; };
+		4E3E6D8A2368372C008052A8 /* Emoticon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E6D892368372C008052A8 /* Emoticon.m */; };
+		4E3E6D8D2368419A008052A8 /* EmoticonPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E6D8C2368419A008052A8 /* EmoticonPackage.m */; };
+		4E3E6D9023692DF4008052A8 /* EmoticonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E6D8F23692DF4008052A8 /* EmoticonManager.m */; };
+		4E3E6D9323693E2F008052A8 /* EmoticonViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E6D9223693E2F008052A8 /* EmoticonViewCell.m */; };
+		4E3E6D9623696039008052A8 /* EmoticonAttachement.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E6D9523696039008052A8 /* EmoticonAttachement.m */; };
+		4E3E6D9A2369617C008052A8 /* UITextView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E6D992369617C008052A8 /* UITextView+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E3E6D5D2367E269008052A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E3E6D392367E268008052A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E3E6D402367E268008052A8;
+			remoteInfo = "表情键盘OC";
+		};
+		4E3E6D682367E269008052A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E3E6D392367E268008052A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E3E6D402367E268008052A8;
+			remoteInfo = "表情键盘OC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E3E6D412367E268008052A8 /* 表情键盘OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "表情键盘OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E3E6D442367E268008052A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E3E6D452367E268008052A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E3E6D472367E268008052A8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4E3E6D482367E268008052A8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4E3E6D4E2367E268008052A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E3E6D502367E269008052A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E3E6D532367E269008052A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E3E6D552367E269008052A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E3E6D562367E269008052A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E3E6D5C2367E269008052A8 /* 表情键盘OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "表情键盘OCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E3E6D602367E269008052A8 /* ____OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____OCTests.m"; sourceTree = "<group>"; };
+		4E3E6D622367E269008052A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E3E6D672367E269008052A8 /* 表情键盘OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "表情键盘OCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E3E6D6B2367E269008052A8 /* ____OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____OCUITests.m"; sourceTree = "<group>"; };
+		4E3E6D6D2367E269008052A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E3E6D792367ED01008052A8 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4E3E6D7A2367ED01008052A8 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4E3E6D7D236815B7008052A8 /* EmoticonController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmoticonController.h; sourceTree = "<group>"; };
+		4E3E6D7E236815B7008052A8 /* EmoticonController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmoticonController.m; sourceTree = "<group>"; };
+		4E3E6D8023682A8F008052A8 /* EmoticonCollectionViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmoticonCollectionViewLayout.h; sourceTree = "<group>"; };
+		4E3E6D8123682A8F008052A8 /* EmoticonCollectionViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmoticonCollectionViewLayout.m; sourceTree = "<group>"; };
+		4E3E6D86236836DA008052A8 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		4E3E6D882368372C008052A8 /* Emoticon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Emoticon.h; sourceTree = "<group>"; };
+		4E3E6D892368372C008052A8 /* Emoticon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Emoticon.m; sourceTree = "<group>"; };
+		4E3E6D8B2368419A008052A8 /* EmoticonPackage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmoticonPackage.h; sourceTree = "<group>"; };
+		4E3E6D8C2368419A008052A8 /* EmoticonPackage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmoticonPackage.m; sourceTree = "<group>"; };
+		4E3E6D8E23692DF4008052A8 /* EmoticonManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmoticonManager.h; sourceTree = "<group>"; };
+		4E3E6D8F23692DF4008052A8 /* EmoticonManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmoticonManager.m; sourceTree = "<group>"; };
+		4E3E6D9123693E2F008052A8 /* EmoticonViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmoticonViewCell.h; sourceTree = "<group>"; };
+		4E3E6D9223693E2F008052A8 /* EmoticonViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmoticonViewCell.m; sourceTree = "<group>"; };
+		4E3E6D9423696039008052A8 /* EmoticonAttachement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmoticonAttachement.h; sourceTree = "<group>"; };
+		4E3E6D9523696039008052A8 /* EmoticonAttachement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmoticonAttachement.m; sourceTree = "<group>"; };
+		4E3E6D982369617C008052A8 /* UITextView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+Extension.h"; sourceTree = "<group>"; };
+		4E3E6D992369617C008052A8 /* UITextView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E3E6D3E2367E268008052A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E3E6D592367E269008052A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E3E6D642367E269008052A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E3E6D382367E268008052A8 = {
+			isa = PBXGroup;
+			children = (
+				4E3E6D432367E268008052A8 /* 表情键盘OC */,
+				4E3E6D5F2367E269008052A8 /* 表情键盘OCTests */,
+				4E3E6D6A2367E269008052A8 /* 表情键盘OCUITests */,
+				4E3E6D422367E268008052A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E3E6D422367E268008052A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E3E6D412367E268008052A8 /* 表情键盘OC.app */,
+				4E3E6D5C2367E269008052A8 /* 表情键盘OCTests.xctest */,
+				4E3E6D672367E269008052A8 /* 表情键盘OCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E3E6D432367E268008052A8 /* 表情键盘OC */ = {
+			isa = PBXGroup;
+			children = (
+				4E3E6D7C2368158F008052A8 /* Emoticon */,
+				4E3E6D442367E268008052A8 /* AppDelegate.h */,
+				4E3E6D452367E268008052A8 /* AppDelegate.m */,
+				4E3E6D472367E268008052A8 /* SceneDelegate.h */,
+				4E3E6D482367E268008052A8 /* SceneDelegate.m */,
+				4E3E6D792367ED01008052A8 /* MainViewController.h */,
+				4E3E6D7A2367ED01008052A8 /* MainViewController.m */,
+				4E3E6D4D2367E268008052A8 /* Main.storyboard */,
+				4E3E6D502367E269008052A8 /* Assets.xcassets */,
+				4E3E6D522367E269008052A8 /* LaunchScreen.storyboard */,
+				4E3E6D552367E269008052A8 /* Info.plist */,
+				4E3E6D562367E269008052A8 /* main.m */,
+			);
+			path = "表情键盘OC";
+			sourceTree = "<group>";
+		};
+		4E3E6D5F2367E269008052A8 /* 表情键盘OCTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E3E6D602367E269008052A8 /* ____OCTests.m */,
+				4E3E6D622367E269008052A8 /* Info.plist */,
+			);
+			path = "表情键盘OCTests";
+			sourceTree = "<group>";
+		};
+		4E3E6D6A2367E269008052A8 /* 表情键盘OCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E3E6D6B2367E269008052A8 /* ____OCUITests.m */,
+				4E3E6D6D2367E269008052A8 /* Info.plist */,
+			);
+			path = "表情键盘OCUITests";
+			sourceTree = "<group>";
+		};
+		4E3E6D7C2368158F008052A8 /* Emoticon */ = {
+			isa = PBXGroup;
+			children = (
+				4E3E6D83236836A3008052A8 /* Model */,
+				4E3E6D7D236815B7008052A8 /* EmoticonController.h */,
+				4E3E6D7E236815B7008052A8 /* EmoticonController.m */,
+				4E3E6D8023682A8F008052A8 /* EmoticonCollectionViewLayout.h */,
+				4E3E6D8123682A8F008052A8 /* EmoticonCollectionViewLayout.m */,
+				4E3E6D9123693E2F008052A8 /* EmoticonViewCell.h */,
+				4E3E6D9223693E2F008052A8 /* EmoticonViewCell.m */,
+				4E3E6D9423696039008052A8 /* EmoticonAttachement.h */,
+				4E3E6D9523696039008052A8 /* EmoticonAttachement.m */,
+				4E3E6D982369617C008052A8 /* UITextView+Extension.h */,
+				4E3E6D992369617C008052A8 /* UITextView+Extension.m */,
+			);
+			path = Emoticon;
+			sourceTree = "<group>";
+		};
+		4E3E6D83236836A3008052A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E3E6D86236836DA008052A8 /* Emoticons.bundle */,
+				4E3E6D882368372C008052A8 /* Emoticon.h */,
+				4E3E6D892368372C008052A8 /* Emoticon.m */,
+				4E3E6D8B2368419A008052A8 /* EmoticonPackage.h */,
+				4E3E6D8C2368419A008052A8 /* EmoticonPackage.m */,
+				4E3E6D8E23692DF4008052A8 /* EmoticonManager.h */,
+				4E3E6D8F23692DF4008052A8 /* EmoticonManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E3E6D402367E268008052A8 /* 表情键盘OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E3E6D702367E269008052A8 /* Build configuration list for PBXNativeTarget "表情键盘OC" */;
+			buildPhases = (
+				4E3E6D3D2367E268008052A8 /* Sources */,
+				4E3E6D3E2367E268008052A8 /* Frameworks */,
+				4E3E6D3F2367E268008052A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "表情键盘OC";
+			productName = "表情键盘OC";
+			productReference = 4E3E6D412367E268008052A8 /* 表情键盘OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E3E6D5B2367E269008052A8 /* 表情键盘OCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E3E6D732367E269008052A8 /* Build configuration list for PBXNativeTarget "表情键盘OCTests" */;
+			buildPhases = (
+				4E3E6D582367E269008052A8 /* Sources */,
+				4E3E6D592367E269008052A8 /* Frameworks */,
+				4E3E6D5A2367E269008052A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E3E6D5E2367E269008052A8 /* PBXTargetDependency */,
+			);
+			name = "表情键盘OCTests";
+			productName = "表情键盘OCTests";
+			productReference = 4E3E6D5C2367E269008052A8 /* 表情键盘OCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E3E6D662367E269008052A8 /* 表情键盘OCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E3E6D762367E269008052A8 /* Build configuration list for PBXNativeTarget "表情键盘OCUITests" */;
+			buildPhases = (
+				4E3E6D632367E269008052A8 /* Sources */,
+				4E3E6D642367E269008052A8 /* Frameworks */,
+				4E3E6D652367E269008052A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E3E6D692367E269008052A8 /* PBXTargetDependency */,
+			);
+			name = "表情键盘OCUITests";
+			productName = "表情键盘OCUITests";
+			productReference = 4E3E6D672367E269008052A8 /* 表情键盘OCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E3E6D392367E268008052A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "单车";
+				TargetAttributes = {
+					4E3E6D402367E268008052A8 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					4E3E6D5B2367E269008052A8 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 4E3E6D402367E268008052A8;
+					};
+					4E3E6D662367E269008052A8 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 4E3E6D402367E268008052A8;
+					};
+				};
+			};
+			buildConfigurationList = 4E3E6D3C2367E268008052A8 /* Build configuration list for PBXProject "表情键盘OC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E3E6D382367E268008052A8;
+			productRefGroup = 4E3E6D422367E268008052A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E3E6D402367E268008052A8 /* 表情键盘OC */,
+				4E3E6D5B2367E269008052A8 /* 表情键盘OCTests */,
+				4E3E6D662367E269008052A8 /* 表情键盘OCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E3E6D3F2367E268008052A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3E6D542367E269008052A8 /* LaunchScreen.storyboard in Resources */,
+				4E3E6D87236836DA008052A8 /* Emoticons.bundle in Resources */,
+				4E3E6D512367E269008052A8 /* Assets.xcassets in Resources */,
+				4E3E6D4F2367E268008052A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E3E6D5A2367E269008052A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E3E6D652367E269008052A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E3E6D3D2367E268008052A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3E6D462367E268008052A8 /* AppDelegate.m in Sources */,
+				4E3E6D8A2368372C008052A8 /* Emoticon.m in Sources */,
+				4E3E6D572367E269008052A8 /* main.m in Sources */,
+				4E3E6D7F236815B7008052A8 /* EmoticonController.m in Sources */,
+				4E3E6D492367E268008052A8 /* SceneDelegate.m in Sources */,
+				4E3E6D8223682A8F008052A8 /* EmoticonCollectionViewLayout.m in Sources */,
+				4E3E6D9623696039008052A8 /* EmoticonAttachement.m in Sources */,
+				4E3E6D9A2369617C008052A8 /* UITextView+Extension.m in Sources */,
+				4E3E6D8D2368419A008052A8 /* EmoticonPackage.m in Sources */,
+				4E3E6D7B2367ED01008052A8 /* MainViewController.m in Sources */,
+				4E3E6D9323693E2F008052A8 /* EmoticonViewCell.m in Sources */,
+				4E3E6D9023692DF4008052A8 /* EmoticonManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E3E6D582367E269008052A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3E6D612367E269008052A8 /* ____OCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E3E6D632367E269008052A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3E6D6C2367E269008052A8 /* ____OCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E3E6D5E2367E269008052A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E3E6D402367E268008052A8 /* 表情键盘OC */;
+			targetProxy = 4E3E6D5D2367E269008052A8 /* PBXContainerItemProxy */;
+		};
+		4E3E6D692367E269008052A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E3E6D402367E268008052A8 /* 表情键盘OC */;
+			targetProxy = 4E3E6D682367E269008052A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E3E6D4D2367E268008052A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E3E6D4E2367E268008052A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E3E6D522367E269008052A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E3E6D532367E269008052A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E3E6D6E2367E269008052A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E3E6D6F2367E269008052A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E3E6D712367E269008052A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "表情键盘OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danche.aaa.----OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E3E6D722367E269008052A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "表情键盘OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danche.aaa.----OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E3E6D742367E269008052A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "表情键盘OCTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danche.aaa.----OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/表情键盘OC.app/表情键盘OC";
+			};
+			name = Debug;
+		};
+		4E3E6D752367E269008052A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "表情键盘OCTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danche.aaa.----OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/表情键盘OC.app/表情键盘OC";
+			};
+			name = Release;
+		};
+		4E3E6D772367E269008052A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "表情键盘OCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danche.aaa.----OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "表情键盘OC";
+			};
+			name = Debug;
+		};
+		4E3E6D782367E269008052A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "表情键盘OCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danche.aaa.----OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "表情键盘OC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E3E6D3C2367E268008052A8 /* Build configuration list for PBXProject "表情键盘OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E3E6D6E2367E269008052A8 /* Debug */,
+				4E3E6D6F2367E269008052A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E3E6D702367E269008052A8 /* Build configuration list for PBXNativeTarget "表情键盘OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E3E6D712367E269008052A8 /* Debug */,
+				4E3E6D722367E269008052A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E3E6D732367E269008052A8 /* Build configuration list for PBXNativeTarget "表情键盘OCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E3E6D742367E269008052A8 /* Debug */,
+				4E3E6D752367E269008052A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E3E6D762367E269008052A8 /* Build configuration list for PBXNativeTarget "表情键盘OCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E3E6D772367E269008052A8 /* Debug */,
+				4E3E6D782367E269008052A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E3E6D392367E268008052A8 /* Project object */;
+}
