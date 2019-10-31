@@ -9,5 +9,5 @@ s.source = {:git => 'https://github.com/Wlfade/DCEmoji.git', :tag => s.version.t
 s.requires_arc = true
 s.ios.deployment_target = '8.0'
 s.source_files = 'Emoticon/**/*.{h,m,bundle}'
-s.resources = 'Emoticon/Model/Emoticons.bundle
+s.resources = 'Emoticon/Model/Emoticons.bundle'
 end
