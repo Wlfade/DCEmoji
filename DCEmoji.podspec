@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = 'DCEmoji'
-s.version = '1.0.4'
+s.version = '1.0.5'
 s.license = 'MIT'
 s.summary = 'A emoji putView on iOS.'
 s.homepage = 'https://github.com/Wlfade/DCEmoji'
